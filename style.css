@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+
+
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("Photos/worn_dots.png");
+}
+
+.img{
+    width: 100%;
+}
+
+
+.container
+{
+    display: flex;
+    justify-content: center;
+
+    /* background-color: green; */
+}
+
+
+@media screen 
+
+
+
+.inner{
+    width: 50%;
+    /* background-color: red; */
+} 
+
+.header{
+    background-image: url("Photos/20161202_101925.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    background-color: white;
+    width: 120px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+
+}
+.logosvg{
+    
+    width: 50px;
+    height: 50px;
+}
+
+.energies{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.collectives{
+    margin-top: -30px;
+    margin-bottom: 0;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.5rem;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+}
+
+
+.element{
+    padding: 20px;
+    height: 20px;
+}
+.navigation
+{
+    background-color: rgb(179, 209, 67);
+
+    
+}
+
+.souscrire
+{
+    background-color: rgb(252,183,49);
+    margin-left: 10px;
+}
