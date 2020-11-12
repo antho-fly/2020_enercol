@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 
 
@@ -94,20 +94,109 @@ body{
     border-top: solid rgb(179, 209, 67) 1px;
 }
 
+
+#devise{
+    margin-top: 20px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    color: rgb(252,183,49);
+}
+
+.logoSvgGrand
+{
+    height: 100px;
+    width : 100px;
+}
+
+#energieAffaire
+{
+    font-size: 2rem;
+    margin-top: 0px;
+}
+
+#transition
+{
+    margin-top: -35px;
+}
+
+.picto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pictoInner
+{
+    font-family: 'Lato', sans-serif;
+    margin: 10px;
+}
+
+.chiffre{
+    font-size: 1.7rem;
+    margin-top: -10px;
+}
+
+.pictoInner.coop
+{
+    color: #c3a575;
+}
+.pictoInner.install
+{
+    color:	#b3d143;
+}
+.pictoInner.prod
+{
+    color: #fcb731;
+}
+.pictoInner.capital
+{
+    color: #00afec;
+}
+
+.comprendre
+{
+    background-color: rgb(109, 111, 113);
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+}
+
+#plus
+{
+    margin-top: -20px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.divGauche{
+
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 2rem;
+    padding-right: 20px;
+    text-align: center;
+}
+.divDroite{
+    font-family: 'Lato', sans-serif;
+    color: black;
+    padding:10px
+}
+
+
+
 @media screen and (min-width:885px)
 {
 
     .inner{
-        width: 50%;
+        width: 70%;
     } 
-    
-
-    .header{
-        background-image: url("Photos/20161202_101925.jpg");
-        background-size: cover;
-        background-position: center;
-        height: 500px;
-    }
     
     .banner{
         display: flex;
@@ -124,16 +213,10 @@ body{
         
     }
     .logosvg{
-        
-        width: 50px;
-        height: 50px;
         order: 1;
     }
     
     .energies{
-        font-family: 'Open Sans', sans-serif;
-        margin-top: 0;
-        font-size: 1.5rem;
         order: 2;
     }
     
@@ -141,9 +224,6 @@ body{
         margin-top: -50px;
         margin-left: 0;
         margin-bottom: 0;
-        font-family: 'Architects Daughter', cursive;
-        font-size: 1.5rem;
-        order:3;
     }
     
     .menu,.cache{
@@ -183,4 +263,19 @@ body{
         background-color: rgb(184, 135, 38);
         margin-left: 10px;
     }
+
+    .info{
+        flex-direction: row;
+    }
+    
+    .divGauche{
+        width: 50%;
+        text-align: right;
+    }
+    .divDroite{
+        width: 50%;
+        background-color: white;
+    }
+
+
 }
