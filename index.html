@@ -12,8 +12,9 @@
                         <img class="logosvg" src="MAQUETTES/logo_ss_texte.svg">
                         <p class="energies">ENERGIES</p>
                         <p class="collectives">collectives</p>
+                        <img id="burger" src="svg/icons8-menu.svg" onclick="afficheMenu()">
                     </div>
-                    <div class="menu">
+                    <div class="cache" id="menu">
                         <div class="element navigation">Actualités</div>
                         <div class="element navigation">Nous connaître</div>
                         <div class="element navigation">Nos Installations</div>
@@ -27,3 +28,12 @@
         </div>
     </body>
 </html>
+<script>
+	let affiche = false;
+	let menu    = document.getElementById("menu");
+
+	function afficheMenu(){
+		affiche                = !affiche;
+		affiche?menu.className = "menu":menu.className = "cache";
+	}
+</script>
